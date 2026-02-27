@@ -1,5 +1,5 @@
 
-                                                             **Jerry Infinite Runner**
+                                                       **Jerry Infinite Runner**
 A Unity endless runner game built to demonstrate object pooling, optimized spawning, and data persistence using JSON.
 
                  Features
