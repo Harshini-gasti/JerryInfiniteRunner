@@ -1,8 +1,8 @@
 
-Jerry Infinite Runner
+                                                             **Jerry Infinite Runner**
 A Unity endless runner game built to demonstrate object pooling, optimized spawning, and data persistence using JSON.
 
-Features
+                 Features
 Object Pooling for collectibles like Cheese and Apple
 
 Efficient spawning system
@@ -15,10 +15,10 @@ Save and load game data using JSON
 
 Performance optimized for smooth gameplay
 
-Object Pooling
+              Object Pooling
 Game objects are reused instead of repeatedly creating and destroying them, improving performance.
 
-Example:
+    Example:
 
 GameObject obj = pool.GetPooledObject();
 if (obj != null)
@@ -30,10 +30,10 @@ Update() → Handles player input and frame-based logic
 
 FixedUpdate() → Handles physics and Rigidbody movement
 
-Data Saving (JSON)
+         Data Saving (JSON)
 Game data such as score is stored and loaded using JSON serialization.
 
-Example:
+    Example:
 
 string json = JsonUtility.ToJson(gameData);
 File.WriteAllText(path, json);
